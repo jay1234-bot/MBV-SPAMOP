@@ -90,7 +90,7 @@ pkg install python3 && pkg install git
 <b>3) clone repo and open dictionary </b>
 
 ```python
-git clone https://github.com/Badhacker98/LEGEND_SPAMBOT  && cd LEGEND_SPAMBOT   
+git clone https://github.com/jay1234-bot/MBV-SPAM  && cd MBV-SPAM   
 ```
 
 <b>4) Install requirements </b>
