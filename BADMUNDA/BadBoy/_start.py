@@ -1,6 +1,5 @@
 import platform
 
-// from SukhPB.start import start_cmd
 from pyrogram import Client
 from pyrogram import __version__ as py_version
 from pyrogram import filters
