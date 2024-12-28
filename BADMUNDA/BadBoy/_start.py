@@ -43,7 +43,7 @@ async def _start(Badmunda: Client, message: Message):
         [
             [
                 InlineKeyboardButton("Owner", url="https://t.me/BLACKMAMBA_HU_VRO"),
-                InlineKeyboardButton("Chat", url="https"//t.me/MBV_CHATS"),
+                InlineKeyboardButton("Chat", url="https//t.me/MBV_CHATS"),
             ],
             [
                 InlineKeyboardButton("Join Us", url="https://t.me/MBV_NETWORK"),
