@@ -3,12 +3,13 @@ import platform
 from pyrogram import Client
 from pyrogram import __version__ as py_version
 from pyrogram import filters
-from pyrogram.types import InlineKeyboardMarkup, Message
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
 from BADMUNDA.Config import *
 
 from ..core.clients import *
 
+# Define START_PIC
 if START_PIC:
     START_PIC = START_PIC
 else:
@@ -18,8 +19,12 @@ else:
 @Client.on_message(filters.command(["start"], prefixes=HANDLER))
 async def _start(Badmunda: Client, message: Message):
     global START_MESSAGE
+
+    # Fetch bot details
     my_detail = await Badmunda.get_me()
     my_mention = my_detail.mention
+
+    # Define START_MESSAGE if not already defined
     if START_MESSAGE:
         START_MESSAGE = START_MESSAGE
     else:
@@ -37,16 +42,16 @@ async def _start(Badmunda: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about"),
+                InlineKeyboardButton("Owner", url="https://t.me/BLACKMAMBA_HU_VRO"),
+                InlineKeyboardButton("Chat", url="https"//t.me/MBV_CHATS"),
             ],
             [
                 InlineKeyboardButton("Join Us", url="https://t.me/MBV_NETWORK"),
             ],
         ]
     )
-    
- # Check if START_PIC is valid and send the message
+
+    # Send start message with image or as text
     if ".jpg" in START_PIC or ".png" in START_PIC:
         for i in range(1, 26):
             lol = globals().get(f"Client{i}")
@@ -55,7 +60,7 @@ async def _start(Badmunda: Client, message: Message):
                     message.chat.id,
                     START_PIC,
                     caption=START_MESSAGE,
-                    reply_markup=keyboard = InlineKeyboardButton("Developer", url="https://t.me/BLACKMAMBA_HU_VRO"), # Add the buttons here
+                    reply_markup=keyboard,
                 )
     else:
         await message.reply_text(START_MESSAGE, reply_markup=keyboard)
