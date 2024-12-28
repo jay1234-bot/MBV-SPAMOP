@@ -34,33 +34,28 @@ async def _start(Badmunda: Client, message: Message):
             f"❖━━━━•❅•°•❈•°•❅•━━━━❖\n\n"
             f"✥ **__ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ__** = {py_version}\n"
             f"✥ **__ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ__** = {platform.python_version()}\n"
-            f"✥ **__ʙᴏᴛsᴘᴀᴍ ᴠᴇʀsɪᴏɴ__** = {version}\n\n"
             f"❖━━━━•❅•°•❈•°•❅•━━━━❖"
         )
 
-    # Define buttons
-    keyboard = InlineKeyboardMarkup(
+    # Buttons
+    buttons = [
         [
-            [
-                InlineKeyboardButton("Owner", url="https://t.me/BLACKMAMBA_HU_VRO"),
-                InlineKeyboardButton("Chat", url="https//t.me/MBV_CHATS"),
-            ],
-            [
-                InlineKeyboardButton("Join Us", url="https://t.me/MBV_NETWORK"),
-            ],
+            InlineKeyboardButton("Support", url="https://t.me/MBV_CHATS"),  # Replace with a valid URL
+            InlineKeyboardButton("Channel", url="https://t.me/MBV_NETWORK"),  # Replace with a valid URL
         ]
-    )
+    ]
 
-    # Send start message with image or as text
+    # Send the start message with photo and buttons
     if ".jpg" in START_PIC or ".png" in START_PIC:
-        for i in range(1, 26):
-            lol = globals().get(f"Client{i}")
-            if lol is not None:
-                await lol.send_photo(
-                    message.chat.id,
-                    START_PIC,
-                    caption=START_MESSAGE,
-                    reply_markup=keyboard,
-                )
+        await Badmunda.send_photo(
+            chat_id=message.chat.id,
+            photo=START_PIC,
+            caption=START_MESSAGE,
+            reply_markup=InlineKeyboardMarkup(buttons),
+        )
     else:
-        await message.reply_text(START_MESSAGE, reply_markup=keyboard)
+        await Badmunda.send_message(
+            chat_id=message.chat.id,
+            text=START_MESSAGE,
+            reply_markup=InlineKeyboardMarkup(buttons),
+        )
