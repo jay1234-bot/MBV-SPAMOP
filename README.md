@@ -1,7 +1,7 @@
-[![ʙᴀᴅᴍᴜɴᴅᴀsᴘᴀᴍʙᴏᴛ](https://telegra.ph/file/c26f985c3f59004bc9927.jpg)](https://github.com/Badhacker98/LEGEND_SPAMBOT)
+
 
 <h1 align="center">
-<b> 『ʙᴀᴅ ʙᴏᴛ sᴘᴀᴍ』 </b>
+<b> 『MBV ʙᴏᴛ sᴘᴀᴍ』 </b>
 </h1>
 
 <h6 align="center">
@@ -18,11 +18,7 @@
 -------
 
 
-## Telegram 🏪
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/PBX_CHAT)
-
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/HEROKUBIN_01)
  
 -------
 
@@ -32,11 +28,11 @@
 
 Required Variable | Description
 :--- | :---
-• APP_ID / API_HASH | Get This From my.telegram.org Or [Start Bot](https://t.me/Api_scrapper_fastbot)
+• APP_ID / API_HASH | Get This From my.telegram.org 
 • BOT_TOKEN | Get This From [Bot Father](https://t.me/BotFather)
 • SUDO_USERS | Start [Rose Bot](https://t.me/MissRose_Bot)
 **Optional Variable** | **Description**
-• START_PIC / PING_PIC /HELP_PIC | Get This From [Click Here](https://t.me/vtelegraphbot)
+• START_PIC / PING_PIC /HELP_PIC | 
 • START_MESSAGE | Put Your Start Message Here
 • HANDLER | Put Any One HANDLER [. , * #  / % ]
 • LOG_CHANNEL | Create New Group Add [Bot](https://t.me/missrose_bot)
@@ -136,13 +132,12 @@ python3 start.py
 
 </details>
 
-### > ᴍᴀᴅᴅ ʙʏ [⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/ll_BAD_MUNDA_ll)
+### > ᴍᴀᴅᴅ ʙʏ MBV NETWORKS
 > 
 
 ### Contact :
-<a href="https://t.me/II_BAD_MUNDA_II"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=sukhwinderwarval50@gmail.com"><img title="GMAIL" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-<a href="https://instagram.com/lll_bad_munda_lll"><img title="Instagram" src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://t.me/censored_politicsss"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+
 
 
 
