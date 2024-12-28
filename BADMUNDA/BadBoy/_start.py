@@ -41,7 +41,7 @@ async def _start(Badmunda: Client, message: Message):
                 InlineKeyboardButton("About", callback_data="about"),
             ],
             [
-                InlineKeyboardButton("Join Us", url="https://t.me/your_channel"),
+                InlineKeyboardButton("Join Us", url="https://t.me/MBV_NETWORK"),
             ],
         ]
     )
@@ -55,7 +55,7 @@ async def _start(Badmunda: Client, message: Message):
                     message.chat.id,
                     START_PIC,
                     caption=START_MESSAGE,
-                    reply_markup=keyboard = InlineKeyboardButton("Join Us", url="https://t.me/your_channel"), # Add the buttons here
+                    reply_markup=keyboard = InlineKeyboardButton("Developer", url="https://t.me/BLACKMAMBA_HU_VRO"), # Add the buttons here
                 )
     else:
         await message.reply_text(START_MESSAGE, reply_markup=keyboard)
