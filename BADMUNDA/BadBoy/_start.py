@@ -42,7 +42,6 @@ async def _start(Badmunda: Client, message: Message):
         [
             InlineKeyboardButton("SUPPORT", url="https://t.me/MBV_CHATS"),  # Replace with a valid URL
             InlineKeyboardButton("CHANNEL", url="https://t.me/MBV_NETWORK"),  # Replace with a valid URL
-            InlinekeyboardButton("DEVELOPER", url="https://t.me/censored_politicsss"), #Developer link 
         ]
     ]
 
