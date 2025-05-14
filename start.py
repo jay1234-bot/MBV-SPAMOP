@@ -1,7 +1,5 @@
 import os
 
-from SukhPB.startup import *
-
 os.system("clear")
 
 
